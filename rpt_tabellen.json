@@ -1,0 +1,1703 @@
+{
+ "huelle": {
+  "5": {
+   "dimension": 5,
+   "ecken": 12,
+   "facetten": 20,
+   "familien": {
+    "x ≤ 1": 10,
+    "x ≥ 0": 10
+   },
+   "n": 5
+  },
+  "6": {
+   "dimension": 9,
+   "ecken": 60,
+   "facetten": 100,
+   "familien": {
+    "Kamm mit 3 Zähnen aus je 2 Orten (2-Matching)": 60,
+    "Subtour, kleinere Seite ab 3 Orten": 10,
+    "x ≤ 1": 15,
+    "x ≥ 0": 15
+   },
+   "n": 6
+  },
+  "7": {
+   "dimension": 14,
+   "ecken": 360,
+   "facetten": 3437,
+   "familien": {
+    "Kamm mit 3 Zähnen aus 2, 2 und 3 Orten": 1260,
+    "Kamm mit 3 Zähnen aus je 2 Orten (2-Matching)": 840,
+    "Subtour, kleinere Seite ab 3 Orten": 35,
+    "weitere": 1260,
+    "x ≤ 1": 21,
+    "x ≥ 0": 21
+   },
+   "n": 7
+  }
+ },
+ "kaemme": {
+  "haufen-10": {
+   "basis": 34000,
+   "familie": "haufen",
+   "instanzen": 200,
+   "kaemme_max": null,
+   "kaemme_median": null,
+   "luecke_nachher_max": null,
+   "luecke_nachher_mittel": null,
+   "luecke_vorher_mittel": null,
+   "mit_kaemmen_geloest": 0,
+   "n": 10,
+   "offen": 0,
+   "offene_seeds": [],
+   "ungeloeste_seeds": [],
+   "werte_ungeloest": {},
+   "wertluecke_nach_kaemmen": 0,
+   "wertluecke_nach_zweimatching": 0
+  },
+  "haufen-12": {
+   "basis": 34200,
+   "familie": "haufen",
+   "instanzen": 200,
+   "kaemme_max": 2,
+   "kaemme_median": 1.0,
+   "luecke_nachher_max": 0.0,
+   "luecke_nachher_mittel": -7.919668249503033e-15,
+   "luecke_vorher_mittel": 0.08856037210042546,
+   "mit_kaemmen_geloest": 3,
+   "n": 12,
+   "offen": 3,
+   "offene_seeds": [
+    34255,
+    34281,
+    34394
+   ],
+   "ungeloeste_seeds": [],
+   "werte_ungeloest": {},
+   "wertluecke_nach_kaemmen": 0,
+   "wertluecke_nach_zweimatching": 3
+  },
+  "karte-10": {
+   "basis": 32000,
+   "familie": "karte",
+   "instanzen": 200,
+   "kaemme_max": null,
+   "kaemme_median": null,
+   "luecke_nachher_max": null,
+   "luecke_nachher_mittel": null,
+   "luecke_vorher_mittel": null,
+   "mit_kaemmen_geloest": 0,
+   "n": 10,
+   "offen": 0,
+   "offene_seeds": [],
+   "ungeloeste_seeds": [],
+   "werte_ungeloest": {},
+   "wertluecke_nach_kaemmen": 0,
+   "wertluecke_nach_zweimatching": 0
+  },
+  "karte-12": {
+   "basis": 32200,
+   "familie": "karte",
+   "instanzen": 200,
+   "kaemme_max": 5,
+   "kaemme_median": 3.0,
+   "luecke_nachher_max": 0.0,
+   "luecke_nachher_mittel": -8.58580856955469e-15,
+   "luecke_vorher_mittel": 0.7829693760558758,
+   "mit_kaemmen_geloest": 3,
+   "n": 12,
+   "offen": 3,
+   "offene_seeds": [
+    32242,
+    32298,
+    32333
+   ],
+   "ungeloeste_seeds": [],
+   "werte_ungeloest": {},
+   "wertluecke_nach_kaemmen": 0,
+   "wertluecke_nach_zweimatching": 3
+  },
+  "karte-8": {
+   "basis": 31800,
+   "familie": "karte",
+   "instanzen": 200,
+   "kaemme_max": null,
+   "kaemme_median": null,
+   "luecke_nachher_max": null,
+   "luecke_nachher_mittel": null,
+   "luecke_vorher_mittel": null,
+   "mit_kaemmen_geloest": 0,
+   "n": 8,
+   "offen": 0,
+   "offene_seeds": [],
+   "ungeloeste_seeds": [],
+   "werte_ungeloest": {},
+   "wertluecke_nach_kaemmen": 0,
+   "wertluecke_nach_zweimatching": 0
+  },
+  "matrix-10": {
+   "basis": 33000,
+   "familie": "matrix",
+   "instanzen": 200,
+   "kaemme_max": 3,
+   "kaemme_median": 1.0,
+   "luecke_nachher_max": 2.3458445040214477,
+   "luecke_nachher_mittel": 0.302115514691711,
+   "luecke_vorher_mittel": 1.4960944274932992,
+   "mit_kaemmen_geloest": 8,
+   "n": 10,
+   "offen": 10,
+   "offene_seeds": [
+    33022,
+    33031,
+    33048,
+    33059,
+    33090,
+    33109,
+    33112,
+    33115,
+    33146,
+    33162
+   ],
+   "ungeloeste_seeds": [
+    33022,
+    33162
+   ],
+   "werte_ungeloest": {
+    "33022": [
+     1457.0,
+     1492
+    ],
+    "33162": [
+     1838.5000000000007,
+     1851
+    ]
+   },
+   "wertluecke_nach_kaemmen": 2,
+   "wertluecke_nach_zweimatching": 10
+  },
+  "matrix-12": {
+   "basis": 33200,
+   "familie": "matrix",
+   "instanzen": 200,
+   "kaemme_max": 3,
+   "kaemme_median": 1.0,
+   "luecke_nachher_max": 3.426069036579083,
+   "luecke_nachher_mittel": 0.37026580357022454,
+   "luecke_vorher_mittel": 0.8974184793841147,
+   "mit_kaemmen_geloest": 14,
+   "n": 12,
+   "offen": 21,
+   "offene_seeds": [
+    33201,
+    33205,
+    33225,
+    33245,
+    33251,
+    33259,
+    33261,
+    33265,
+    33266,
+    33271,
+    33276,
+    33288,
+    33296,
+    33305,
+    33328,
+    33340,
+    33348,
+    33366,
+    33367,
+    33374,
+    33398
+   ],
+   "ungeloeste_seeds": [
+    33245,
+    33251,
+    33259,
+    33271,
+    33276,
+    33305,
+    33398
+   ],
+   "werte_ungeloest": {
+    "33245": [
+     2610.500000000004,
+     2614
+    ],
+    "33251": [
+     2232.5,
+     2240
+    ],
+    "33259": [
+     1716.5,
+     1740
+    ],
+    "33271": [
+     1874.5,
+     1941
+    ],
+    "33276": [
+     2698.5,
+     2705
+    ],
+    "33305": [
+     1823.6666666666665,
+     1824
+    ],
+    "33398": [
+     2065.0,
+     2113
+    ]
+   },
+   "wertluecke_nach_kaemmen": 7,
+   "wertluecke_nach_zweimatching": 21
+  },
+  "matrix-8": {
+   "basis": 32800,
+   "familie": "matrix",
+   "instanzen": 200,
+   "kaemme_max": 1,
+   "kaemme_median": 1.0,
+   "luecke_nachher_max": 0.0,
+   "luecke_nachher_mittel": 0.0,
+   "luecke_vorher_mittel": 2.2524291268008403,
+   "mit_kaemmen_geloest": 5,
+   "n": 8,
+   "offen": 5,
+   "offene_seeds": [
+    32820,
+    32873,
+    32897,
+    32903,
+    32944
+   ],
+   "ungeloeste_seeds": [],
+   "werte_ungeloest": {},
+   "wertluecke_nach_kaemmen": 0,
+   "wertluecke_nach_zweimatching": 5
+  }
+ },
+ "leiter": {
+  "haufen-12": {
+   "basis": 34200,
+   "beleg": {
+    "dualschranke": 199,
+    "held-karp": 1
+   },
+   "familie": "haufen",
+   "geloest": {
+    "exakt": 197,
+    "grad": 4,
+    "komp_alle": 197,
+    "komp_eine": 197,
+    "subtour": 195
+   },
+   "geteilte_zaehne": [
+    0,
+    6
+   ],
+   "instanzen": 200,
+   "komponentenregel": {
+    "alle": {
+     "abgebrochen": 0,
+     "abstand_max": 0.0,
+     "geloest": 197,
+     "uebersehen": 0,
+     "unter_exakt": 0
+    },
+    "eine": {
+     "abgebrochen": 0,
+     "abstand_max": 0.0,
+     "geloest": 197,
+     "uebersehen": 0,
+     "unter_exakt": 0
+    },
+    "endwert_verschieden": 0
+   },
+   "luecke_max": {
+    "exakt": 0.18286311389759666,
+    "grad": 59.974747474747474,
+    "komp_alle": 0.18286311389759666,
+    "komp_eine": 0.18286311389759666,
+    "subtour": 0.7092198581560284
+   },
+   "luecke_mittel": {
+    "exakt": 0.0013284055815063818,
+    "grad": 22.144537932452817,
+    "komp_alle": 0.0013284055815063818,
+    "komp_eine": 0.0013284055815063818,
+    "subtour": 0.005146244002721306
+   },
+   "n": 12,
+   "subtour_gebrochen": {
+    "anders": 0,
+    "gebrochen": 5,
+    "halb": 5,
+    "halb_kreise": 2,
+    "kreislaengen": {
+     "3": 4,
+     "7": 1,
+     "9": 2
+    },
+    "unbekannt": 0
+   },
+   "subtourzeilen": {
+    "alle_max": 9,
+    "alle_median": 4.0,
+    "eine_max": 7,
+    "eine_median": 3.0,
+    "runden_median": 2.0
+   },
+   "wert_optimal": {
+    "exakt": 197,
+    "grad": 4,
+    "komp_alle": 197,
+    "komp_eine": 197,
+    "subtour": 195
+   },
+   "zahnzahlen": {
+    "3": 6
+   },
+   "zweimatching_gebrochen": {
+    "gebrochen": 3,
+    "halb": 3
+   },
+   "zweimatchingzeilen": {
+    "alle_max": 2,
+    "alle_median": 0.0,
+    "alle_mittel": 0.02,
+    "eine_max": 1,
+    "eine_median": 0.0,
+    "eine_mittel": 0.01
+   }
+  },
+  "haufen-16": {
+   "basis": 34600,
+   "beleg": {
+    "branch-and-bound": 4,
+    "dualschranke": 96
+   },
+   "familie": "haufen",
+   "geloest": {
+    "exakt": 96,
+    "grad": 0,
+    "komp_alle": 96,
+    "komp_eine": 96,
+    "subtour": 92
+   },
+   "geteilte_zaehne": [
+    0,
+    29
+   ],
+   "instanzen": 100,
+   "komponentenregel": {
+    "alle": {
+     "abgebrochen": 0,
+     "abstand_max": 0.04714757190006859,
+     "geloest": 96,
+     "uebersehen": 1,
+     "unter_exakt": 1
+    },
+    "eine": {
+     "abgebrochen": 0,
+     "abstand_max": 0.20430614490019,
+     "geloest": 96,
+     "uebersehen": 1,
+     "unter_exakt": 1
+    },
+    "endwert_verschieden": 1
+   },
+   "luecke_max": {
+    "exakt": 1.5087223008015194,
+    "grad": 52.634408602150536,
+    "komp_alle": 1.555869872701588,
+    "komp_eine": 1.7130284457017095,
+    "subtour": 2.8995756718528995
+   },
+   "luecke_mittel": {
+    "exakt": 0.027451684155041192,
+    "grad": 22.05703470895259,
+    "komp_alle": 0.02792315987404188,
+    "komp_eine": 0.029494745604043093,
+    "subtour": 0.052407241905874716
+   },
+   "n": 16,
+   "subtour_gebrochen": {
+    "anders": 0,
+    "gebrochen": 8,
+    "halb": 8,
+    "halb_kreise": 6,
+    "kreislaengen": {
+     "3": 12,
+     "6": 1,
+     "7": 1,
+     "9": 1
+    },
+    "unbekannt": 0
+   },
+   "subtourzeilen": {
+    "alle_max": 14,
+    "alle_median": 6.0,
+    "eine_max": 13,
+    "eine_median": 5.0,
+    "runden_median": 2.0
+   },
+   "wert_optimal": {
+    "exakt": 96,
+    "grad": 0,
+    "komp_alle": 96,
+    "komp_eine": 96,
+    "subtour": 93
+   },
+   "zahnzahlen": {
+    "3": 29
+   },
+   "zweimatching_gebrochen": {
+    "gebrochen": 4,
+    "halb": 3
+   },
+   "zweimatchingzeilen": {
+    "alle_max": 7,
+    "alle_median": 0.0,
+    "alle_mittel": 0.16,
+    "eine_max": 6,
+    "eine_median": 0.0,
+    "eine_mittel": 0.13
+   }
+  },
+  "haufen-30": {
+   "basis": 36000,
+   "beleg": {
+    "branch-and-bound": 5,
+    "dualschranke": 95
+   },
+   "familie": "haufen",
+   "geloest": {
+    "exakt": 93,
+    "grad": 0,
+    "komp_alle": 90,
+    "komp_eine": 89,
+    "subtour": 76
+   },
+   "geteilte_zaehne": [
+    16,
+    143
+   ],
+   "instanzen": 100,
+   "komponentenregel": {
+    "alle": {
+     "abgebrochen": 0,
+     "abstand_max": 0.10969422734129863,
+     "geloest": 90,
+     "uebersehen": 5,
+     "unter_exakt": 4
+    },
+    "eine": {
+     "abgebrochen": 0,
+     "abstand_max": 0.29834553837809136,
+     "geloest": 89,
+     "uebersehen": 8,
+     "unter_exakt": 8
+    },
+    "endwert_verschieden": 5
+   },
+   "luecke_max": {
+    "exakt": 0.7404360345536629,
+    "grad": 41.32379248658319,
+    "komp_alle": 0.8501302618949615,
+    "komp_eine": 0.8501302618949802,
+    "subtour": 1.9950637597696421
+   },
+   "luecke_mittel": {
+    "exakt": 0.013432345007295494,
+    "grad": 23.344853828841917,
+    "komp_alle": 0.016507167441792658,
+    "komp_eine": 0.020799020670110968,
+    "subtour": 0.07110806876178892
+   },
+   "n": 30,
+   "subtour_gebrochen": {
+    "anders": 2,
+    "gebrochen": 24,
+    "halb": 22,
+    "halb_kreise": 20,
+    "kreislaengen": {
+     "3": 36,
+     "4": 1,
+     "5": 3,
+     "6": 1,
+     "7": 3
+    },
+    "unbekannt": 0
+   },
+   "subtourzeilen": {
+    "alle_max": 46,
+    "alle_median": 15.0,
+    "eine_max": 23,
+    "eine_median": 10.0,
+    "runden_median": 3.0
+   },
+   "wert_optimal": {
+    "exakt": 94,
+    "grad": 0,
+    "komp_alle": 92,
+    "komp_eine": 90,
+    "subtour": 78
+   },
+   "zahnzahlen": {
+    "3": 114,
+    "5": 20,
+    "7": 9
+   },
+   "zweimatching_gebrochen": {
+    "gebrochen": 7,
+    "halb": 7
+   },
+   "zweimatchingzeilen": {
+    "alle_max": 13,
+    "alle_median": 0.0,
+    "alle_mittel": 0.87,
+    "eine_max": 7,
+    "eine_median": 0.0,
+    "eine_mittel": 0.56
+   }
+  },
+  "haufen-50": {
+   "basis": 38000,
+   "beleg": {
+    "branch-and-bound": 13,
+    "dualschranke": 47
+   },
+   "familie": "haufen",
+   "geloest": {
+    "exakt": 45,
+    "grad": 0,
+    "komp_alle": 41,
+    "komp_eine": 40,
+    "subtour": 28
+   },
+   "geteilte_zaehne": [
+    103,
+    412
+   ],
+   "instanzen": 60,
+   "komponentenregel": {
+    "alle": {
+     "abgebrochen": 0,
+     "abstand_max": 0.25012201073693374,
+     "geloest": 41,
+     "uebersehen": 12,
+     "unter_exakt": 12
+    },
+    "eine": {
+     "abgebrochen": 0,
+     "abstand_max": 0.17081503172278606,
+     "geloest": 40,
+     "uebersehen": 13,
+     "unter_exakt": 13
+    },
+    "endwert_verschieden": 16
+   },
+   "luecke_max": {
+    "exakt": 0.6859993763642033,
+    "grad": 41.030989272943984,
+    "komp_alle": 0.6859993763642033,
+    "komp_eine": 0.6859993763642033,
+    "subtour": 0.971322849213691
+   },
+   "luecke_mittel": {
+    "exakt": 0.058352127247209944,
+    "grad": 19.999199550661334,
+    "komp_alle": 0.07186770957735968,
+    "komp_eine": 0.07676938210886915,
+    "subtour": 0.17573786958546764
+   },
+   "n": 50,
+   "subtour_gebrochen": {
+    "anders": 4,
+    "gebrochen": 32,
+    "halb": 28,
+    "halb_kreise": 22,
+    "kreislaengen": {
+     "10": 1,
+     "3": 47,
+     "4": 2,
+     "5": 7,
+     "7": 3,
+     "8": 1,
+     "9": 2
+    },
+    "unbekannt": 0
+   },
+   "subtourzeilen": {
+    "alle_max": 64,
+    "alle_median": 29.0,
+    "eine_max": 30,
+    "eine_median": 15.5,
+    "runden_median": 5.0
+   },
+   "wert_optimal": {
+    "exakt": 45,
+    "grad": 0,
+    "komp_alle": 41,
+    "komp_eine": 41,
+    "subtour": 28
+   },
+   "zahnzahlen": {
+    "11": 4,
+    "13": 2,
+    "3": 244,
+    "5": 84,
+    "7": 51,
+    "9": 27
+   },
+   "zweimatching_gebrochen": {
+    "gebrochen": 15,
+    "halb": 12
+   },
+   "zweimatchingzeilen": {
+    "alle_max": 57,
+    "alle_median": 0.5,
+    "alle_mittel": 4.516666666666667,
+    "eine_max": 28,
+    "eine_median": 0.5,
+    "eine_mittel": 2.35
+   }
+  },
+  "karte-12": {
+   "basis": 32200,
+   "beleg": {
+    "dualschranke": 197,
+    "held-karp": 3
+   },
+   "familie": "karte",
+   "geloest": {
+    "exakt": 197,
+    "grad": 32,
+    "komp_alle": 197,
+    "komp_eine": 196,
+    "subtour": 193
+   },
+   "geteilte_zaehne": [
+    0,
+    20
+   ],
+   "instanzen": 200,
+   "komponentenregel": {
+    "alle": {
+     "abgebrochen": 0,
+     "abstand_max": 0.4035683942225998,
+     "geloest": 197,
+     "uebersehen": 1,
+     "unter_exakt": 1
+    },
+    "eine": {
+     "abgebrochen": 0,
+     "abstand_max": 0.42480883602378927,
+     "geloest": 196,
+     "uebersehen": 2,
+     "unter_exakt": 2
+    },
+    "endwert_verschieden": 2
+   },
+   "luecke_max": {
+    "exakt": 1.2042018959774532,
+    "grad": 32.54080908445706,
+    "komp_alle": 1.32398753894081,
+    "komp_eine": 1.3452279807419993,
+    "subtour": 1.8549985839705465
+   },
+   "luecke_mittel": {
+    "exakt": 0.011744540640838137,
+    "grad": 6.52324637306157,
+    "komp_alle": 0.013762382611951136,
+    "komp_eine": 0.013958238756764966,
+    "subtour": 0.02718442643358065
+   },
+   "n": 12,
+   "subtour_gebrochen": {
+    "anders": 0,
+    "gebrochen": 7,
+    "halb": 7,
+    "halb_kreise": 6,
+    "kreislaengen": {
+     "3": 11,
+     "5": 1,
+     "7": 1
+    },
+    "unbekannt": 0
+   },
+   "subtourzeilen": {
+    "alle_max": 9,
+    "alle_median": 3.0,
+    "eine_max": 7,
+    "eine_median": 2.0,
+    "runden_median": 1.0
+   },
+   "wert_optimal": {
+    "exakt": 197,
+    "grad": 32,
+    "komp_alle": 197,
+    "komp_eine": 196,
+    "subtour": 193
+   },
+   "zahnzahlen": {
+    "3": 20
+   },
+   "zweimatching_gebrochen": {
+    "gebrochen": 3,
+    "halb": 3
+   },
+   "zweimatchingzeilen": {
+    "alle_max": 3,
+    "alle_median": 0.0,
+    "alle_mittel": 0.055,
+    "eine_max": 3,
+    "eine_median": 0.0,
+    "eine_mittel": 0.045
+   }
+  },
+  "karte-16": {
+   "basis": 32600,
+   "beleg": {
+    "branch-and-bound": 4,
+    "dualschranke": 96
+   },
+   "familie": "karte",
+   "geloest": {
+    "exakt": 96,
+    "grad": 7,
+    "komp_alle": 95,
+    "komp_eine": 94,
+    "subtour": 88
+   },
+   "geteilte_zaehne": [
+    3,
+    46
+   ],
+   "instanzen": 100,
+   "komponentenregel": {
+    "alle": {
+     "abgebrochen": 0,
+     "abstand_max": 0.08813433528157445,
+     "geloest": 95,
+     "uebersehen": 1,
+     "unter_exakt": 1
+    },
+    "eine": {
+     "abgebrochen": 0,
+     "abstand_max": 0.0927729845069158,
+     "geloest": 94,
+     "uebersehen": 2,
+     "unter_exakt": 2
+    },
+    "endwert_verschieden": 2
+   },
+   "luecke_max": {
+    "exakt": 1.2890839275918815,
+    "grad": 24.95114006514658,
+    "komp_alle": 1.2890839275918815,
+    "komp_eine": 1.2890839275918815,
+    "subtour": 1.7690348146051513
+   },
+   "luecke_mittel": {
+    "exakt": 0.02982082076253188,
+    "grad": 7.242552857618651,
+    "komp_alle": 0.03070216411534762,
+    "komp_eine": 0.030920283391389424,
+    "subtour": 0.08923248454649568
+   },
+   "n": 16,
+   "subtour_gebrochen": {
+    "anders": 0,
+    "gebrochen": 12,
+    "halb": 12,
+    "halb_kreise": 9,
+    "kreislaengen": {
+     "12": 1,
+     "3": 16,
+     "5": 3,
+     "7": 1,
+     "8": 1
+    },
+    "unbekannt": 0
+   },
+   "subtourzeilen": {
+    "alle_max": 14,
+    "alle_median": 5.0,
+    "eine_max": 9,
+    "eine_median": 2.0,
+    "runden_median": 2.0
+   },
+   "wert_optimal": {
+    "exakt": 96,
+    "grad": 7,
+    "komp_alle": 95,
+    "komp_eine": 94,
+    "subtour": 88
+   },
+   "zahnzahlen": {
+    "3": 43,
+    "5": 3
+   },
+   "zweimatching_gebrochen": {
+    "gebrochen": 4,
+    "halb": 4
+   },
+   "zweimatchingzeilen": {
+    "alle_max": 6,
+    "alle_median": 0.0,
+    "alle_mittel": 0.27,
+    "eine_max": 5,
+    "eine_median": 0.0,
+    "eine_mittel": 0.19
+   }
+  },
+  "karte-30": {
+   "basis": 34000,
+   "beleg": {
+    "branch-and-bound": 23,
+    "dualschranke": 77
+   },
+   "familie": "karte",
+   "geloest": {
+    "exakt": 76,
+    "grad": 0,
+    "komp_alle": 66,
+    "komp_eine": 64,
+    "subtour": 45
+   },
+   "geteilte_zaehne": [
+    98,
+    599
+   ],
+   "instanzen": 100,
+   "komponentenregel": {
+    "alle": {
+     "abgebrochen": 0,
+     "abstand_max": 0.49211902742440305,
+     "geloest": 66,
+     "uebersehen": 15,
+     "unter_exakt": 15
+    },
+    "eine": {
+     "abgebrochen": 0,
+     "abstand_max": 0.591071706330682,
+     "geloest": 64,
+     "uebersehen": 25,
+     "unter_exakt": 25
+    },
+    "endwert_verschieden": 31
+   },
+   "luecke_max": {
+    "exakt": 1.849848550411038,
+    "grad": 22.519582245430808,
+    "komp_alle": 1.8498485504110775,
+    "komp_eine": 1.8823020337516227,
+    "subtour": 3.6780614452617915
+   },
+   "luecke_mittel": {
+    "exakt": 0.10213753975060813,
+    "grad": 7.183712276448663,
+    "komp_alle": 0.12738935361275053,
+    "komp_eine": 0.15285365075145477,
+    "subtour": 0.46878187926019144
+   },
+   "n": 30,
+   "subtour_gebrochen": {
+    "anders": 1,
+    "gebrochen": 55,
+    "halb": 54,
+    "halb_kreise": 42,
+    "kreislaengen": {
+     "10": 1,
+     "12": 1,
+     "13": 1,
+     "3": 86,
+     "4": 3,
+     "5": 12,
+     "6": 5,
+     "7": 3,
+     "8": 2,
+     "9": 2
+    },
+    "unbekannt": 0
+   },
+   "subtourzeilen": {
+    "alle_max": 37,
+    "alle_median": 12.0,
+    "eine_max": 15,
+    "eine_median": 6.0,
+    "runden_median": 3.0
+   },
+   "wert_optimal": {
+    "exakt": 76,
+    "grad": 0,
+    "komp_alle": 66,
+    "komp_eine": 64,
+    "subtour": 45
+   },
+   "zahnzahlen": {
+    "3": 453,
+    "5": 126,
+    "7": 17,
+    "9": 3
+   },
+   "zweimatching_gebrochen": {
+    "gebrochen": 24,
+    "halb": 22
+   },
+   "zweimatchingzeilen": {
+    "alle_max": 36,
+    "alle_median": 2.0,
+    "alle_mittel": 3.43,
+    "eine_max": 20,
+    "eine_median": 1.0,
+    "eine_mittel": 2.56
+   }
+  },
+  "karte-50": {
+   "basis": 36000,
+   "beleg": {
+    "branch-and-bound": 28,
+    "dualschranke": 32
+   },
+   "familie": "karte",
+   "geloest": {
+    "exakt": 32,
+    "grad": 0,
+    "komp_alle": 26,
+    "komp_eine": 22,
+    "subtour": 9
+   },
+   "geteilte_zaehne": [
+    654,
+    1855
+   ],
+   "instanzen": 60,
+   "komponentenregel": {
+    "alle": {
+     "abgebrochen": 0,
+     "abstand_max": 0.4944330007943362,
+     "geloest": 26,
+     "uebersehen": 29,
+     "unter_exakt": 29
+    },
+    "eine": {
+     "abgebrochen": 0,
+     "abstand_max": 0.8129974863845879,
+     "geloest": 22,
+     "uebersehen": 31,
+     "unter_exakt": 31
+    },
+    "endwert_verschieden": 29
+   },
+   "luecke_max": {
+    "exakt": 1.2645071886367574,
+    "grad": 13.55830328009617,
+    "komp_alle": 1.6066170102200055,
+    "komp_eine": 1.4748697517621614,
+    "subtour": 2.717193747728099
+   },
+   "luecke_mittel": {
+    "exakt": 0.21867079423729766,
+    "grad": 6.655859803228105,
+    "komp_alle": 0.29745621090410257,
+    "komp_eine": 0.3343663829626472,
+    "subtour": 0.8261321175856351
+   },
+   "n": 50,
+   "subtour_gebrochen": {
+    "anders": 8,
+    "gebrochen": 51,
+    "halb": 43,
+    "halb_kreise": 34,
+    "kreislaengen": {
+     "10": 2,
+     "11": 1,
+     "15": 1,
+     "16": 1,
+     "3": 79,
+     "4": 4,
+     "5": 11,
+     "6": 3,
+     "7": 4,
+     "8": 3,
+     "9": 1
+    },
+    "unbekannt": 0
+   },
+   "subtourzeilen": {
+    "alle_max": 61,
+    "alle_median": 24.0,
+    "eine_max": 22,
+    "eine_median": 10.0,
+    "runden_median": 4.0
+   },
+   "wert_optimal": {
+    "exakt": 32,
+    "grad": 0,
+    "komp_alle": 26,
+    "komp_eine": 22,
+    "subtour": 9
+   },
+   "zahnzahlen": {
+    "11": 80,
+    "13": 33,
+    "15": 11,
+    "17": 2,
+    "3": 942,
+    "5": 428,
+    "7": 211,
+    "9": 148
+   },
+   "zweimatching_gebrochen": {
+    "gebrochen": 28,
+    "halb": 20
+   },
+   "zweimatchingzeilen": {
+    "alle_max": 175,
+    "alle_median": 7.5,
+    "alle_mittel": 20.766666666666666,
+    "eine_max": 85,
+    "eine_median": 5.0,
+    "eine_mittel": 10.15
+   }
+  },
+  "karte-8": {
+   "basis": 31800,
+   "beleg": {
+    "dualschranke": 100
+   },
+   "familie": "karte",
+   "geloest": {
+    "exakt": 100,
+    "grad": 44,
+    "komp_alle": 100,
+    "komp_eine": 100,
+    "subtour": 99
+   },
+   "geteilte_zaehne": [
+    0,
+    2
+   ],
+   "instanzen": 100,
+   "komponentenregel": {
+    "alle": {
+     "abgebrochen": 0,
+     "abstand_max": 0.0,
+     "geloest": 100,
+     "uebersehen": 0,
+     "unter_exakt": 0
+    },
+    "eine": {
+     "abgebrochen": 0,
+     "abstand_max": 0.0,
+     "geloest": 100,
+     "uebersehen": 0,
+     "unter_exakt": 0
+    },
+    "endwert_verschieden": 0
+   },
+   "luecke_max": {
+    "exakt": 0.0,
+    "grad": 23.066037735849058,
+    "komp_alle": 0.0,
+    "komp_eine": 0.0,
+    "subtour": 0.37821482602118
+   },
+   "luecke_mittel": {
+    "exakt": 0.0,
+    "grad": 4.584666598882156,
+    "komp_alle": 0.0,
+    "komp_eine": 0.0,
+    "subtour": 0.0037821482602118
+   },
+   "n": 8,
+   "subtour_gebrochen": {
+    "anders": 0,
+    "gebrochen": 1,
+    "halb": 1,
+    "halb_kreise": 1,
+    "kreislaengen": {
+     "3": 2
+    },
+    "unbekannt": 0
+   },
+   "subtourzeilen": {
+    "alle_max": 3,
+    "alle_median": 1.0,
+    "eine_max": 3,
+    "eine_median": 1.0,
+    "runden_median": 1.0
+   },
+   "wert_optimal": {
+    "exakt": 100,
+    "grad": 44,
+    "komp_alle": 100,
+    "komp_eine": 100,
+    "subtour": 99
+   },
+   "zahnzahlen": {
+    "3": 2
+   },
+   "zweimatching_gebrochen": {
+    "gebrochen": 0,
+    "halb": 0
+   },
+   "zweimatchingzeilen": {
+    "alle_max": 1,
+    "alle_median": 0.0,
+    "alle_mittel": 0.01,
+    "eine_max": 1,
+    "eine_median": 0.0,
+    "eine_mittel": 0.01
+   }
+  },
+  "matrix-12": {
+   "basis": 33200,
+   "beleg": {
+    "dualschranke": 179,
+    "held-karp": 21
+   },
+   "familie": "matrix",
+   "geloest": {
+    "exakt": 179,
+    "grad": 100,
+    "komp_alle": 178,
+    "komp_eine": 178,
+    "subtour": 166
+   },
+   "geteilte_zaehne": [
+    4,
+    66
+   ],
+   "instanzen": 200,
+   "komponentenregel": {
+    "alle": {
+     "abgebrochen": 0,
+     "abstand_max": 0.3401360544217558,
+     "geloest": 178,
+     "uebersehen": 3,
+     "unter_exakt": 3
+    },
+    "eine": {
+     "abgebrochen": 0,
+     "abstand_max": 0.3401360544217558,
+     "geloest": 178,
+     "uebersehen": 5,
+     "unter_exakt": 5
+    },
+    "endwert_verschieden": 2
+   },
+   "luecke_max": {
+    "exakt": 3.426069036579083,
+    "grad": 20.695652173913043,
+    "komp_alle": 3.426069036579083,
+    "komp_eine": 3.6750815730722954,
+    "subtour": 3.889747552807831
+   },
+   "luecke_mittel": {
+    "exakt": 0.09422894033533204,
+    "grad": 1.8268305464911498,
+    "komp_alle": 0.09737441501026878,
+    "komp_eine": 0.09925605176680896,
+    "subtour": 0.17985857040705144
+   },
+   "n": 12,
+   "subtour_gebrochen": {
+    "anders": 2,
+    "gebrochen": 34,
+    "halb": 32,
+    "halb_kreise": 25,
+    "kreislaengen": {
+     "10": 3,
+     "11": 2,
+     "3": 27,
+     "5": 9,
+     "7": 4,
+     "8": 4,
+     "9": 2
+    },
+    "unbekannt": 0
+   },
+   "subtourzeilen": {
+    "alle_max": 7,
+    "alle_median": 0.0,
+    "eine_max": 6,
+    "eine_median": 0.0,
+    "runden_median": 0.0
+   },
+   "wert_optimal": {
+    "exakt": 179,
+    "grad": 100,
+    "komp_alle": 178,
+    "komp_eine": 178,
+    "subtour": 166
+   },
+   "zahnzahlen": {
+    "3": 60,
+    "5": 6
+   },
+   "zweimatching_gebrochen": {
+    "gebrochen": 21,
+    "halb": 20
+   },
+   "zweimatchingzeilen": {
+    "alle_max": 6,
+    "alle_median": 0.0,
+    "alle_mittel": 0.2,
+    "eine_max": 3,
+    "eine_median": 0.0,
+    "eine_mittel": 0.13
+   }
+  },
+  "matrix-16": {
+   "basis": 33600,
+   "beleg": {
+    "branch-and-bound": 10,
+    "dualschranke": 90
+   },
+   "familie": "matrix",
+   "geloest": {
+    "exakt": 90,
+    "grad": 46,
+    "komp_alle": 88,
+    "komp_eine": 85,
+    "subtour": 81
+   },
+   "geteilte_zaehne": [
+    6,
+    42
+   ],
+   "instanzen": 100,
+   "komponentenregel": {
+    "alle": {
+     "abgebrochen": 0,
+     "abstand_max": 0.5685218432076737,
+     "geloest": 88,
+     "uebersehen": 2,
+     "unter_exakt": 2
+    },
+    "eine": {
+     "abgebrochen": 0,
+     "abstand_max": 0.6464503996238887,
+     "geloest": 85,
+     "uebersehen": 7,
+     "unter_exakt": 7
+    },
+    "endwert_verschieden": 5
+   },
+   "luecke_max": {
+    "exakt": 2.6698076168040923,
+    "grad": 13.06141154903758,
+    "komp_alle": 2.6698076168040923,
+    "komp_eine": 2.6698076168040923,
+    "subtour": 2.736653207716465
+   },
+   "luecke_mittel": {
+    "exakt": 0.07888181364360443,
+    "grad": 1.7386661568921575,
+    "komp_alle": 0.08623481059469386,
+    "komp_eine": 0.096595637991983,
+    "subtour": 0.16879411717782367
+   },
+   "n": 16,
+   "subtour_gebrochen": {
+    "anders": 4,
+    "gebrochen": 19,
+    "halb": 15,
+    "halb_kreise": 14,
+    "kreislaengen": {
+     "10": 3,
+     "3": 11,
+     "5": 4,
+     "7": 4,
+     "8": 2
+    },
+    "unbekannt": 0
+   },
+   "subtourzeilen": {
+    "alle_max": 11,
+    "alle_median": 1.0,
+    "eine_max": 4,
+    "eine_median": 1.0,
+    "runden_median": 1.0
+   },
+   "wert_optimal": {
+    "exakt": 90,
+    "grad": 46,
+    "komp_alle": 88,
+    "komp_eine": 85,
+    "subtour": 81
+   },
+   "zahnzahlen": {
+    "3": 25,
+    "5": 12,
+    "7": 5
+   },
+   "zweimatching_gebrochen": {
+    "gebrochen": 10,
+    "halb": 8
+   },
+   "zweimatchingzeilen": {
+    "alle_max": 5,
+    "alle_median": 0.0,
+    "alle_mittel": 0.25,
+    "eine_max": 4,
+    "eine_median": 0.0,
+    "eine_mittel": 0.17
+   }
+  },
+  "matrix-30": {
+   "basis": 35000,
+   "beleg": {
+    "branch-and-bound": 29,
+    "dualschranke": 71
+   },
+   "familie": "matrix",
+   "geloest": {
+    "exakt": 69,
+    "grad": 26,
+    "komp_alle": 68,
+    "komp_eine": 67,
+    "subtour": 57
+   },
+   "geteilte_zaehne": [
+    70,
+    167
+   ],
+   "instanzen": 100,
+   "komponentenregel": {
+    "alle": {
+     "abgebrochen": 0,
+     "abstand_max": 0.8722421754745907,
+     "geloest": 68,
+     "uebersehen": 5,
+     "unter_exakt": 5
+    },
+    "eine": {
+     "abgebrochen": 0,
+     "abstand_max": 0.8722421754745907,
+     "geloest": 67,
+     "uebersehen": 6,
+     "unter_exakt": 6
+    },
+    "endwert_verschieden": 1
+   },
+   "luecke_max": {
+    "exakt": 2.112676056338028,
+    "grad": 6.960035922766053,
+    "komp_alle": 2.112676056338028,
+    "komp_eine": 2.112676056338028,
+    "subtour": 2.112676056338028
+   },
+   "luecke_mittel": {
+    "exakt": 0.15375272176783722,
+    "grad": 1.2645140168844242,
+    "komp_alle": 0.16524863339935422,
+    "komp_eine": 0.16671882853434397,
+    "subtour": 0.26633285914483684
+   },
+   "n": 30,
+   "subtour_gebrochen": {
+    "anders": 11,
+    "gebrochen": 43,
+    "halb": 32,
+    "halb_kreise": 28,
+    "kreislaengen": {
+     "10": 6,
+     "11": 3,
+     "12": 3,
+     "13": 1,
+     "14": 4,
+     "16": 2,
+     "3": 14,
+     "4": 1,
+     "5": 4,
+     "6": 1,
+     "7": 3,
+     "8": 3,
+     "9": 3
+    },
+    "unbekannt": 0
+   },
+   "subtourzeilen": {
+    "alle_max": 12,
+    "alle_median": 1.0,
+    "eine_max": 6,
+    "eine_median": 1.0,
+    "runden_median": 1.0
+   },
+   "wert_optimal": {
+    "exakt": 70,
+    "grad": 26,
+    "komp_alle": 69,
+    "komp_eine": 68,
+    "subtour": 57
+   },
+   "zahnzahlen": {
+    "11": 16,
+    "3": 40,
+    "5": 35,
+    "7": 37,
+    "9": 39
+   },
+   "zweimatching_gebrochen": {
+    "gebrochen": 31,
+    "halb": 23
+   },
+   "zweimatchingzeilen": {
+    "alle_max": 22,
+    "alle_median": 0.0,
+    "alle_mittel": 1.12,
+    "eine_max": 11,
+    "eine_median": 0.0,
+    "eine_mittel": 0.55
+   }
+  },
+  "matrix-50": {
+   "basis": 37000,
+   "beleg": {
+    "branch-and-bound": 28,
+    "dualschranke": 32
+   },
+   "familie": "matrix",
+   "geloest": {
+    "exakt": 31,
+    "grad": 10,
+    "komp_alle": 26,
+    "komp_eine": 24,
+    "subtour": 21
+   },
+   "geteilte_zaehne": [
+    85,
+    240
+   ],
+   "instanzen": 60,
+   "komponentenregel": {
+    "alle": {
+     "abgebrochen": 0,
+     "abstand_max": 0.2580228995323408,
+     "geloest": 26,
+     "uebersehen": 18,
+     "unter_exakt": 18
+    },
+    "eine": {
+     "abgebrochen": 0,
+     "abstand_max": 0.3232323232323462,
+     "geloest": 24,
+     "uebersehen": 23,
+     "unter_exakt": 23
+    },
+    "endwert_verschieden": 9
+   },
+   "luecke_max": {
+    "exakt": 1.028711807154886,
+    "grad": 4.5736064792758455,
+    "komp_alle": 1.1630584983878398,
+    "komp_eine": 1.1630584983878398,
+    "subtour": 1.1630584983878398
+   },
+   "luecke_mittel": {
+    "exakt": 0.12688675848493589,
+    "grad": 0.864183636464394,
+    "komp_alle": 0.15411784956580726,
+    "komp_eine": 0.16973183182413612,
+    "subtour": 0.2545894990106375
+   },
+   "n": 50,
+   "subtour_gebrochen": {
+    "anders": 19,
+    "gebrochen": 39,
+    "halb": 20,
+    "halb_kreise": 19,
+    "kreislaengen": {
+     "10": 1,
+     "11": 3,
+     "12": 2,
+     "15": 1,
+     "16": 1,
+     "18": 2,
+     "25": 1,
+     "3": 10,
+     "5": 5,
+     "7": 3,
+     "8": 1,
+     "9": 4
+    },
+    "unbekannt": 0
+   },
+   "subtourzeilen": {
+    "alle_max": 25,
+    "alle_median": 2.0,
+    "eine_max": 6,
+    "eine_median": 2.0,
+    "runden_median": 1.0
+   },
+   "wert_optimal": {
+    "exakt": 32,
+    "grad": 10,
+    "komp_alle": 27,
+    "komp_eine": 25,
+    "subtour": 22
+   },
+   "zahnzahlen": {
+    "11": 17,
+    "13": 10,
+    "15": 8,
+    "17": 4,
+    "19": 2,
+    "3": 64,
+    "5": 42,
+    "7": 46,
+    "9": 47
+   },
+   "zweimatching_gebrochen": {
+    "gebrochen": 29,
+    "halb": 16
+   },
+   "zweimatchingzeilen": {
+    "alle_max": 19,
+    "alle_median": 0.0,
+    "alle_mittel": 2.9833333333333334,
+    "eine_max": 7,
+    "eine_median": 0.0,
+    "eine_mittel": 1.0166666666666666
+   }
+  }
+ },
+ "meta": {
+  "huelle": {
+   "gegenproben": {},
+   "loeser": "HiGHS (scipy linprog highs-ds, milp), Gegenprobe CP-SAT",
+   "numpy": "2.5.3",
+   "ortools": "9.15.6755",
+   "scipy": "1.18.1"
+  },
+  "kaemme": {
+   "gegenproben": {
+    "cp-sat": 1600,
+    "held-karp": 1600,
+    "kamm-dynamik": 9
+   },
+   "loeser": "HiGHS (scipy linprog highs-ds, milp), Gegenprobe CP-SAT",
+   "numpy": "2.5.3",
+   "ortools": "9.15.6755",
+   "scipy": "1.18.1"
+  },
+  "leiter": {
+   "gegenproben": {
+    "aufzaehlen": 1000,
+    "cp-sat": 1480,
+    "held-karp": 700
+   },
+   "loeser": "HiGHS (scipy linprog highs-ds, milp), Gegenprobe CP-SAT",
+   "numpy": "2.5.3",
+   "ortools": "9.15.6755",
+   "scipy": "1.18.1"
+  },
+  "prisma": {
+   "gegenproben": {
+    "cp-sat": 10,
+    "held-karp": 10
+   },
+   "loeser": "HiGHS (scipy linprog highs-ds, milp), Gegenprobe CP-SAT",
+   "numpy": "2.5.3",
+   "ortools": "9.15.6755",
+   "scipy": "1.18.1"
+  }
+ },
+ "prisma": {
+  "kosten": [
+   {
+    "dreieck": 1,
+    "grad": 6.0,
+    "optimum": 6,
+    "subtour": 6.0,
+    "verbinder": 1,
+    "zweimatching": 6.0
+   },
+   {
+    "dreieck": 2,
+    "grad": 9.0,
+    "optimum": 10,
+    "subtour": 9.0,
+    "verbinder": 1,
+    "zweimatching": 10.0
+   },
+   {
+    "dreieck": 3,
+    "grad": 12.0,
+    "optimum": 13,
+    "subtour": 12.0,
+    "verbinder": 1,
+    "zweimatching": 13.0
+   },
+   {
+    "dreieck": 5,
+    "grad": 18.0,
+    "optimum": 19,
+    "subtour": 18.0,
+    "verbinder": 1,
+    "zweimatching": 19.0
+   },
+   {
+    "dreieck": 1,
+    "grad": 6.0,
+    "optimum": 8,
+    "subtour": 8.0,
+    "verbinder": 2,
+    "zweimatching": 8.0
+   },
+   {
+    "dreieck": 1,
+    "grad": 6.0,
+    "optimum": 12,
+    "subtour": 12.0,
+    "verbinder": 4,
+    "zweimatching": 12.0
+   }
+  ],
+  "wege": [
+   {
+    "grad": 6.0,
+    "k": 1,
+    "kaemme": 6.0,
+    "optimum": 6,
+    "orte": 6,
+    "subtour": 6.0,
+    "zweimatching": 6.0
+   },
+   {
+    "grad": 9.0,
+    "k": 2,
+    "kaemme": 10.0,
+    "optimum": 10,
+    "orte": 9,
+    "subtour": 9.0,
+    "zweimatching": 10.0
+   },
+   {
+    "grad": 12.0,
+    "k": 3,
+    "kaemme": 13.333333333333332,
+    "optimum": 14,
+    "orte": 12,
+    "subtour": 12.0,
+    "zweimatching": 13.0
+   },
+   {
+    "grad": 15.0,
+    "k": 4,
+    "kaemme": null,
+    "optimum": 18,
+    "orte": 15,
+    "subtour": 15.0,
+    "zweimatching": 16.49999999999999
+   }
+  ]
+ }
+}
